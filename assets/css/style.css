@@ -19,11 +19,6 @@ nav{
   font-weight: 400;
 }
 
-.yo{
-  border-style: solid;
-  border-bottom: 2px;
-  border-color: white;
-}
 
 header {
   background-image: url('../img/bg_hero.png');
@@ -44,6 +39,18 @@ header {
 
 #work{
   background-color: #660066;
+}
+
+.bar-grey{
+  width: 20%;
+  border-top: solid #212529;
+  border-width: 2px;
+}
+
+.bar-white{
+  width: 20%;
+  border-top: solid #ffffff;
+  border-width: 2px;
 }
 
 .carousel-indicators {
