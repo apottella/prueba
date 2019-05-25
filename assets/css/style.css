@@ -1,6 +1,7 @@
 body {
   font-family: 'OpenSans', sans-serif;
   font-weight: 400;
+  color: #d8d8d8;
 
 }
 
@@ -20,20 +21,21 @@ h2 {
 }
 
 nav{
-  background-color: #660066;
+  background-color: #ffe900;
 }
 
 footer{
-  background-color: #660066;
+  background-color: #ffe900;
 }
 
 .yo, h1{
   font-weight: 400;
+  font-size: 2em;
 }
 
 
 header {
-  background-image: url('../img/bg_hero.png');
+  background-image: url('../img/bg_hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -41,21 +43,15 @@ header {
   text-align: center;
 }
 
-#about{
-  font-size: 1em;
-}
 
-#experience{
-  font-size:1em;
-}
 
 #work{
-  background-color: #660066;
+  background-color: #ffe900;
 }
 
 .bar-grey{
-  width: 20%;
-  border-top: solid #212529;
+  width: 10%;
+  border-top: solid #d8d8d8;
   border-width: 2px;
 }
 
@@ -73,4 +69,10 @@ header {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+@media query {
+
+
+
 }
