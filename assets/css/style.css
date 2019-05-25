@@ -1,0 +1,57 @@
+body {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 6em;
+
+}
+
+nav{
+  background-color: #660066;
+}
+
+.yo, h1{
+  font-weight: 400;
+}
+
+.yo{
+  border-style: solid;
+  border-bottom: 2px;
+  border-color: white;
+}
+
+header {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20rem;
+  text-align: center;
+}
+
+#about{
+  font-size: 1em;
+}
+
+#experience{
+  font-size:1em;
+}
+
+#work{
+  background-color: #660066;
+}
+
+.carousel-indicators {
+  top: 50px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
